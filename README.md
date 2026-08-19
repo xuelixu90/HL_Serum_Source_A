@@ -35,8 +35,8 @@ We use Heavy/Light isotope-based SILAC proteomic data from extracellular vesicle
 
 The workflow automatically classifies detected proteins into the following categories:
 
-- **Case 1 (High-peptide paired quantitation)**: Valid Heavy/Light pairs are present in at least two reference and target replicates, with at least 2 unique peptides in the required number of target replicates.
-- **Case 2 (Single-peptide paired candidate)**: Valid Heavy/Light pairs are present in at least two reference and target replicates, with single-peptide support in the target group.
+- **Case 1 (Source-corrected, high confidence)**: Valid Heavy/Light pairs are present in at least two reference and target replicates, with at least 2 unique peptides in the required number of target replicates.
+- **Case 2 (Source-corrected, medium confidence)**: Valid Heavy/Light pairs are present in at least two reference and target replicates, with single-peptide support in the target group.
 - **Case 3 (Acquired-only Level 1)**: The protein has no valid Heavy/Light pair in any reference-control replicate and shows a Light-dominant signal in at least two target replicates with high-peptide support.
 - **Case 4 (Acquired-only Level 2)**: The protein has no valid Heavy/Light pair in any reference-control replicate and shows a Light-dominant signal in at least two target replicates with single-peptide support. Case 3 is evaluated first and takes priority over Case 4.
 
