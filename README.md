@@ -16,7 +16,7 @@ We use Heavy/Light isotope-based SILAC proteomic data from extracellular vesicle
 
 [Using Heavy/Light Isotope-Based Analysis to evaluate serum source attribution and EV-PC protein classification](https://htmlpreview.github.io/?https://github.com/xuelixu90/SILAC-SAPC/blob/main/code/Heavy_Light-Isotope-Based_Serum_Source_Analysis_1.html)
 
-> **Note:** Click the link above to open and explore the interactive report directly in your web browser. It features interactive Plotly charts, dynamic searchable tables, and clickable UniProt accession links.
+> **Note:** Click the link above to view the HTML report in your web browser. The report contains sample metadata, protein classification results, summary tables, and static visualizations.
 
 ---
 
